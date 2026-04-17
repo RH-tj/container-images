@@ -1,6 +1,6 @@
-FROM quay.io/redhat-services-prod/app-sre-tenant/container-images-master/qontract-reconcile-base-master:1.4.0-1@sha256:e3c96e127e0580c8998489e94ef0dc468dd78a80873276900cfb6863804fbb9d
+FROM quay.io/redhat-services-prod/app-sre-tenant/container-images-master/qontract-reconcile-base-master:1.5.1-1@sha256:2a2a15f47273bc3a5119b2cd936e87749103567207ba84692d3fec1d88050a31
 
-LABEL konflux.additional-tags=1.4.0
+LABEL konflux.additional-tags=1.5.1
 WORKDIR /work
 
 RUN mkdir ~/.gnupg && \
